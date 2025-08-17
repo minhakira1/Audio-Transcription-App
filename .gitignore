@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.eggs
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual environment
+my_env/
+
+# Code editor
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+
+# Gradio flagged data
+flagged/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Others
+*.sqlite3
+*.db
+*.bak
+*.tmp
+
+# Ignore download cache
+__download_cache__/
