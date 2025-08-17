@@ -3,46 +3,38 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.pdb
+*.so
 *.egg
-*.eggs
-*.env
-*.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Virtual environment
-my_env/
-
-# Code editor
-.vscode/
-.idea/
-
-# macOS
-.DS_Store
-
-# Logs
+*.egg-info/
+dist/
+build/
 *.log
+*.sqlite3
+*.db
+
+# Virtual environments
+venv/
+my_env/
+.env
+.venv311
+
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Audio files
 *.wav
 *.mp3
-*.flac
+*.ogg
 
 # Gradio flagged data
 flagged/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Others
-*.sqlite3
-*.db
+# Misc
 *.bak
 *.tmp
 
-# Ignore download cache
-__download_cache__/
